@@ -1,0 +1,154 @@
+/* general */
+
+body{
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav{
+  margin-right: 10px;
+}
+
+nav span{
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+a{
+  color: seashell;
+}
+
+/* header */
+
+header{
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 1;
+  top: 0;
+}
+
+.logo{
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* content container */
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 60px;
+  bottom: 60px;
+}
+
+/* mission container */
+
+.mission{
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  background-image: url(../images/img-mission-background.jpg);
+  justify-content: center;
+  align-items: center;
+}
+
+.missionstatement{
+  background-color: black;
+  width: 1200px;
+}
+
+/* menu container */
+
+.menu{
+  width: 1000px;
+}
+
+.menudetails{
+  display: flex;
+  flex-direction: column;
+}
+
+.line1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.line2{
+  display: flex;
+  justify-content: center;
+}
+
+.line2 .visual{
+  margin: 0 25px;
+}
+
+.visual{
+  display: flex;
+  flex-direction: column;
+}
+
+.visual img{
+  height: 200px;
+  width: 300px;
+}
+
+.visual h4{
+  margin-top: 10px;
+}
+
+/* locations - note: the positioning of the background image in my work is different than on instructions. I noticed the height of the image is 795px, while container is only 500px. I tried background-image: center; but the result wasn't better. how should I have handled this? */
+
+.locations{
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations h2{
+  margin: 0 0 15px 0;
+}
+
+.addresses{
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.shop{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0 20px;
+}
+
+/* contact */
+
+.contact{
+  height: 200px;
+}
+
+/* footer */
+
+.footer{
+  position: relative;
+  top: 60px;
+  text-align: left;
+  margin-left: 20px;
+}
